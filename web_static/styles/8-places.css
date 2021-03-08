@@ -1,0 +1,123 @@
+.places{
+	display: flex;
+	flex-direction: column;
+	padding-left: 30px;
+}
+.places h1{
+	font-size: 30px;
+}
+.articles{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.articles article{
+	width: 390px;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #FF5A5F;
+	border-radius: 4px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.name_price{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.place_name{
+	padding-right: 30%;
+}
+.place_name h2{
+	font-size: 30px;
+}
+.price_by_night{
+	border: 4px solid #FF5A5F;
+	border-radius: 50%;
+	min-width: 60px;
+	height: 60px;
+}
+.price_text{
+	color: #FF5A5F;
+	font-size: 30px;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+.information{
+	height: 80px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.max_guest{
+	width: 100px;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.guest_icon{
+	background-image: url("https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_group.png");
+	background-repeat: no-repeat;
+	width: inherit;
+	height: inherit;
+	margin-left: 25%;
+}
+.guest_info{
+	color: gray;
+	font-size: medium;
+}
+.number_rooms{
+	width: 100px;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.rooms_icon{
+	background-image: url("https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bed.png");
+	background-repeat: no-repeat;
+	width: inherit;
+	height: inherit;
+	margin-left: 25%;
+}
+.rooms_info{
+	color: gray;
+	font-size: medium;
+}
+.number_bathrooms{
+	width: 100px;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.bathroom_icon{
+	background-image: url("https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/icon_bath.png");
+	background-repeat: no-repeat;
+	width: inherit;
+	height: inherit;
+	margin-left: 25%;
+}
+.bathroom_info{
+	color: gray;
+	font-size: medium;
+}
+.user{
+	color: black;
+	font-size: medium;
+	text-align: left;
+	margin-top: 10%;
+}
+.description{
+	color: black;
+	font-size: medium;
+	text-align: left;
+	margin-top: 5%;
+}
